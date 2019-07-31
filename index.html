@@ -37,6 +37,19 @@
             font-size: 15px;
             margin-right:2%;
         }
+        .hire1{
+            border: none;
+            background-image: linear-gradient(to right,#667eea,#764ba2);
+            width: 150px;
+            height: 50px;
+            border-radius: 4px;
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            margin-right:7%;
+            margin-top: 4%;
+            margin-left: 41.5%;
+        }
         .resume{
             border: 2px solid #764ba2;
             width: 150px;
@@ -60,6 +73,19 @@
             margin-right:2%;
             cursor: pointer;
         }
+        .hire1:hover{
+            border: 1px solid #764ba2;
+            background-image: none;
+            background-color: white;
+            width: 150px;
+            height: 50px;
+            border-radius: 4px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            margin-right:7%;
+            cursor: pointer;
+        }
         .resume:hover{
             border: none;
             background-image: linear-gradient(to right,#667eea,#764ba2);
@@ -80,12 +106,19 @@
         .second{
             position: relative;
             margin-bottom: 1%;
-            background: url("bkk2.jpg") no-repeat center/cover;
-            height: 90%;
+            background: url("intro-01.jpg") no-repeat center/cover;
+            height: 85%;
             margin-top: 12%;
         }
         .third{
-            margin-bottom: 10%;
+            margin-bottom: 3%;
+            padding-bottom: 2%;
+            background: url("skill5.jpg")  center/cover;;
+        }
+        .forth{
+           background: url("cnct-011.jpg") center/cover;
+           margin-bottom: 10%;
+           height: 80%;
         }
         .logo{
             width: 80px;
@@ -120,6 +153,11 @@
             margin-right: 8%;
         }
         .thirdthird{
+            margin-left: 8%;
+            margin-right: 8%;
+            padding-bottom: 30%;
+        }
+        .forthforth{
             margin-left: 8%;
             margin-right: 8%;
         }
@@ -157,51 +195,55 @@
         .sk{
             font-size: 50px;
             text-align: center;
-            margin-bottom: 8%;
+            margin-bottom: 13%;
+            background-color: #fff;
         }
         .skil{
-            display: inline;
+            
             align-items: center;
         }
         .skill{
             border: 1px solid #764ba2;
             border-radius: 20px;
-            width: 20%;
-            height: 45%;
-            
+            width: 18%;
+            height: 40%;
+            background-color: white;
             float: left;
             margin-right: 6%;
             
         }
         #box1{
-            margin-left: 14%;
+            margin-left: 16%;
+        }
+        #box3{
+            margin-right: 16%;
         }
         .web{
-            width: 180px;
+            width: 120px;
             height: auto;
-            padding-left: 20px;
-            padding-top: 20px;
+            padding-left: 40px;
+            padding-top: 50px;
         }
         .text1{
             padding-top: 15px;
             text-align: center;
         }
         .ui{
-            width: 200px;
+            width: 120px;
             height: auto;
-            padding-left: 15px;
+            padding-left: 40px;
             border-radius: 10px;
-            padding-top: 15px; 
+            padding-top: 50px; 
                 }
         .text2{
             padding-top: 15px;
             text-align: center;
         }
         .ml{
-            width: 180px;
+            width: 120px;
             height: auto;
-            padding-left: 20px;
-            padding-top: 5px;
+            padding-left: 40px;
+            padding-top: 40px;
         }
         .text3{
             text-align: center;
@@ -209,7 +251,33 @@
         .skill:hover{
             box-shadow: 1.5px 1.5px 12px 0.6px grey;
             cursor: pointer;
+            border: 1px solid #764ba2;
         }
+        
+        .contact{
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 5%;
+            padding-bottom: 13.5%;
+        }
+        .inp{
+            width: 45%;
+            height: 9%;
+            border-radius: 4px;
+            font-family: 'Montserrat', sans-serif;
+            border: 1px solid #764ba2;
+            padding: 10px;
+            font-size: 17px;
+            overflow: visible;
+            margin-right: 5%;
+            margin-left: 10%;
+        }
+        footer{
+            background-color: grey;
+            height: 15%;
+            opacity: 0.4;
+        }
+        
     </style>
     <body>
        <div class="header">
@@ -255,28 +323,34 @@
             <div class="skil">
                 <div class="skill" id="box1">
                     <img src="web.jpg" align="middle" class="web">
-                    <h3 class="text1">Web Development</h3>
+                    <h3 class="text1">Web <br>Development</h3>
                 </div>
                 <div class="skill" id="box2">
                         <img src="ui.jpg" align="middle" class="ui">
-                    <h3 class="text2">UI/UX Design</h3>
+                    <h3 class="text2">UI/UX <br>Design</h3>
                 </div>
                 <div class="skill" id="box3">
                         <img src="ml.png" align="middle" class="ml">
-                    <h3 class="text3">Machine Learning</h3>
+                    <h3 class="text3">Machine <br>Learning</h3>
                 </div>
 
             </div>
         </section>
     </div>
 </div>
-<div class="forth">
+<div class="forth" id="contact">
     <div class="forthforth">
         <section>
-            <h1>Contact Me</h1>
+            <h1 class="contact">Contact Me</h1>
+            <input type="text" placeholder="Enter your E-mail Here " class="inp"><br>
+            <button class="hire1">Get in Touch!</button>
+            
         </section>
     </div>
 </div>
+<footer>
+
+</footer>
 
     </body>
 </html>
