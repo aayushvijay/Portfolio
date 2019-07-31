@@ -1,0 +1,282 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+    </head>
+    <link href="https://fonts.googleapis.com/css?family=Barriecito|Oxygen:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:600&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-top: 3.5%;
+        }
+        .hello{
+            font-size: 45px;
+            margin: 5% 0 1% 0;
+        }
+        .name{
+            font-size: 68px;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+        .about{
+            font-size: 25px;
+            margin: 1% 0 1% 0;
+            margin-bottom: 11%;
+        }
+        .hire{
+            border: none;
+            background-image: linear-gradient(to right,#667eea,#764ba2);
+            width: 150px;
+            height: 50px;
+            border-radius: 4px;
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            margin-right:2%;
+        }
+        .resume{
+            border: 2px solid #764ba2;
+            width: 150px;
+            height: 50px;
+            border-radius: 4px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            background-color: white;
+        }
+        .hire:hover{
+            border: 2px solid #764ba2;
+            background-image: none;
+            background-color: white;
+            width: 150px;
+            height: 50px;
+            border-radius: 4px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            margin-right:2%;
+            cursor: pointer;
+        }
+        .resume:hover{
+            border: none;
+            background-image: linear-gradient(to right,#667eea,#764ba2);
+            width: 150px;
+            height: 50px;
+            border-radius: 4px;
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .first{
+            background: url("ah-01.jpg") no-repeat center/cover;  
+        }
+        b{
+            color: #764ba2;
+        }
+        .second{
+            position: relative;
+            margin-bottom: 1%;
+            background: url("bkk2.jpg") no-repeat center/cover;
+            height: 90%;
+            margin-top: 12%;
+        }
+        .third{
+            margin-bottom: 10%;
+        }
+        .logo{
+            width: 80px;
+            height: auto;
+            display: inline;
+            position: relative;
+            left: 0%;
+            margin-right: 45%;
+        }
+        .logoname{
+            display:inline;
+            font-size: 35px;
+            color: #764ba2;
+            padding-bottom: 2%;
+            margin-bottom: 2%;
+        }
+        
+        .list{
+            display: inline;
+        }
+        .header{
+            margin-left: 8%;
+            margin-right: 8%;
+            padding-bottom: 10px;
+        }
+        .firstfirst{
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+        .secondsecond{
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+        .thirdthird{
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+        .nav{
+            font-family: 'Montserrat', sans-serif;
+            color: #667eea;
+            text-decoration: none;
+            font-size: 19px;
+            letter-spacing: 1.5px;
+        }
+        #nav1{
+            margin-right: 5%;
+            color: #764ba2
+        }
+        #nav2{
+            margin-right: 5%;
+        }
+        #nav3{
+            margin-right: 5%;
+        }
+        .myself-head,.myself-main{
+            text-align: right;
+        }
+        .myself-head{
+            font-size: 55px;
+            margin-left: 30%;
+            margin-bottom: 7%;
+        }
+        .myself-main{
+            margin-left: 45%;
+            font-size: 22px;
+            font-family: 'Montserrat',sans-serif;
+
+        }
+        .sk{
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 8%;
+        }
+        .skil{
+            display: inline;
+            align-items: center;
+        }
+        .skill{
+            border: 1px solid #764ba2;
+            border-radius: 20px;
+            width: 20%;
+            height: 45%;
+            
+            float: left;
+            margin-right: 6%;
+            
+        }
+        #box1{
+            margin-left: 14%;
+        }
+        .web{
+            width: 180px;
+            height: auto;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        .text1{
+            padding-top: 15px;
+            text-align: center;
+        }
+        .ui{
+            width: 200px;
+            height: auto;
+            padding-left: 15px;
+            border-radius: 10px;
+            padding-top: 15px; 
+                }
+        .text2{
+            padding-top: 15px;
+            text-align: center;
+        }
+        .ml{
+            width: 180px;
+            height: auto;
+            padding-left: 20px;
+            padding-top: 5px;
+        }
+        .text3{
+            text-align: center;
+        }
+        .skill:hover{
+            box-shadow: 1.5px 1.5px 12px 0.6px grey;
+            cursor: pointer;
+        }
+    </style>
+    <body>
+       <div class="header">
+        <header class="head">
+            <nav>
+                
+                <img src="logo1.jpg" class="logo" align="middle">
+                <a href="#intro" class="nav" id="nav1">HOME</a>
+                <a href="#abt" class="nav" id="nav2">ABOUT</a>
+                <a href="#skills" class="nav" id="nav3">SKILLS</a>
+                <a href="#contact" class="nav" id="nav4">CONTACT</a>
+            </nav>
+        </header>
+        </div>
+       
+
+    <div class="first" id="intro">
+       <div class="firstfirst"> <section>
+        <h2 class="hello">Hello     &nbsp<b>______________________</b></h2>
+        <h1 class="name">I AM AAYUSH VIJAY</h1>
+        <p class="about">Computer Science Engineer</p>
+        <button class="hire">HIRE ME!</button>
+        <button class="resume">GET RESUME</button>
+        </section>
+        </div>
+    </div>
+
+    <div class="second" id="abt">
+        <div class="secondsecond">
+            <section>
+                <h1 class="myself-head">An Introduction About Myself</h1>
+                <p class="myself-main">I am passionate about Web developing, Product development, Web Design and Machine Learning. 
+                    I am someone who is consistently growing themselves and who takes the time to continue learning even though it's not a direct requirement of the job. 
+                    I find that many times it's a combination of what you study both directly and indirectly related to work.</p>
+            </section>
+        </div>
+    </div>
+
+<div class="third" id="skills">
+    <div class="thirdthird">
+        <section>
+            <h1 class="sk">Skills Known</h1>
+            <div class="skil">
+                <div class="skill" id="box1">
+                    <img src="web.jpg" align="middle" class="web">
+                    <h3 class="text1">Web Development</h3>
+                </div>
+                <div class="skill" id="box2">
+                        <img src="ui.jpg" align="middle" class="ui">
+                    <h3 class="text2">UI/UX Design</h3>
+                </div>
+                <div class="skill" id="box3">
+                        <img src="ml.png" align="middle" class="ml">
+                    <h3 class="text3">Machine Learning</h3>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</div>
+<div class="forth">
+    <div class="forthforth">
+        <section>
+            <h1>Contact Me</h1>
+        </section>
+    </div>
+</div>
+
+    </body>
+</html>
