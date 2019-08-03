@@ -139,7 +139,7 @@
     }
 
     .logo {
-        width: 80px;
+        width: 7%;
         height: auto;
         display: inline;
         position: relative;
@@ -233,7 +233,6 @@
     }
 
     .skil {
-
         align-items: center;
     }
 
@@ -246,6 +245,33 @@
         float: left;
         margin-right: 6%;
 
+    }
+    /* @media screen and (max-width:1020px){
+        .skill{
+            width: 80%;
+        }
+        
+    } */
+    @media screen and (max-width: 1000px){
+        #nav1,#nav2,#nav3,#nav4{
+            text-align: center;
+            display: block;
+            /* padding-left: 40%;
+            padding-right: 30%; */
+            font-size: 45px;
+            letter-spacing: 2px;
+            line-height: 180%;
+        }
+        #nav1,#nav2,#nav3{
+            margin-right: none;
+            margin-left: none;
+        }
+        .logo{
+            width: 15%;
+            height: auto;
+            padding-left: 40%;
+            padding-bottom: 10%;
+        }
     }
 
     #box1 {
@@ -261,6 +287,7 @@
         height: auto;
         padding-left: 10%;
         padding-top: 12%;
+        padding-bottom: 8%;
     }
 
     .text1 {
@@ -274,11 +301,14 @@
         padding-left: 10%;
         padding-right: 10%;
         padding-top: 25%;
+        padding-bottom: 8%;
+
     }
 
     .text2 {
         padding-top: 15px;
         text-align: center;
+
     }
 
     .ml {
@@ -286,10 +316,13 @@
         height: auto;
         padding-left: 10%;
         padding-top: 9%;
+        padding-bottom: 5%;
+
     }
 
     .text3 {
         text-align: center;
+
     }
 
     .skill:hover {
@@ -330,7 +363,7 @@
         <header class="head">
             <nav>
 
-                <img src="logo2.jpg" class="logo" align="middle">
+                <a href="#intro"><img src="logo2.jpg" class="logo" align="middle"></a>
                 <a href="#intro" class="nav" id="nav1">HOME</a>
                 <a href="#abt" class="nav" id="nav2">ABOUT</a>
                 <a href="#skills" class="nav" id="nav3">SKILLS</a>
@@ -347,7 +380,7 @@
                 <h1 class="name">I AM AAYUSH VIJAY</h1>
                 <p class="about">Computer Science Engineer</p>
                 <button class="hire">HIRE ME!</button>
-                <button class="resume">GET RESUME</button>
+                <button class="resume"><a href="">GET RESUME</a></button>
             </section>
         </div>
     </div>
@@ -373,15 +406,15 @@
                 <div class="skil">
                     <div class="skill" id="box1">
                         <img src="web.jpg" align="middle" class="web">
-                        <h3 class="text1">Web <br>Development</h3>
+                        <h3 class="text1">Web Development</h3>
                     </div>
                     <div class="skill" id="box2">
                         <img src="uix.png" align="middle" class="ui">
-                        <h3 class="text2">UI/UX <br>Design</h3>
+                        <h3 class="text2">UI/UX Design</h3>
                     </div>
                     <div class="skill" id="box3">
                         <img src="ml.png" align="middle" class="ml">
-                        <h3 class="text3">Machine <br>Learning</h3>
+                        <h3 class="text3">Machine Learning</h3>
                     </div>
 
                 </div>
