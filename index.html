@@ -331,7 +331,7 @@
             margin-top: 4%;
         }
 
-        .hire {
+        .hire:enabled {
             border: none;
             background-image: linear-gradient(to right, #667eea, #764ba2);
             width: 40%;
@@ -343,7 +343,7 @@
             margin-right: 6%;
         }
 
-        .resume {
+        .hire:active {
             border: 2px solid #764ba2;
             width: 40%;
             height: 7%;
@@ -352,6 +352,37 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 35px;
             background-color: white;
+            background-image: none;
+        }
+
+        .resume:enabled {
+            border: 2px solid #764ba2;
+            width: 40%;
+            height: 7%;
+            border-radius: 8px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            background-color: white;
+        }
+
+        .resume:active {
+            border: 1px solid #764ba2;
+            width: 40%;
+            height: 7%;
+            border-radius: 8px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            background-color: white;
+        }
+
+        .second {
+            height: 40%;
+        }
+
+        .myself-head {
+            text-align: center;
         }
 
     }
