@@ -137,9 +137,39 @@
     }
 
     .forth {
-        background: url("cnn-01.jpg") no-repeat center/cover;
+        background: none;
         margin-bottom: 10%;
-        height: 80%;
+        height: 20%;
+    }
+
+    .social1,
+    .social2,
+    .social3,
+    .social4 {
+        width: 8%;
+        height: auto;
+    }
+
+    .foot {
+        margin-left: 25%;
+        width: 50%;
+        margin-bottom: 5%;
+    }
+
+    .social1 {
+        margin-left: 14.5%;
+    }
+
+    .social2 {
+        margin-left: 12%;
+    }
+
+    .social3 {
+        margin-left: 12%;
+    }
+
+    .social4 {
+        margin-left: 12%;
     }
 
     .logo {
@@ -226,7 +256,7 @@
         margin-left: 45%;
         font-size: 22px;
         font-family: 'Montserrat', sans-serif;
-
+        letter-spacing: 0.4px;
     }
 
     .sk {
@@ -257,6 +287,10 @@
     }
 
     @media screen and (max-width:1020px) {
+        .header {
+            margin-bottom: 10%;
+        }
+
         .skill {
             width: 60%;
             margin-bottom: 10%;
@@ -378,22 +412,70 @@
         }
 
         .second {
-            height: 60%;
-            margin-top: 20%;
+            height: 90%;
+            margin-top: 35%;
         }
 
         .myself-head {
             text-align: left;
             font-size: 90px;
             margin-left: 0;
-            margin-bottom: 10%;
+            margin-bottom: 12%;
         }
 
         .myself-main {
             text-align: left;
-            font-size: 40px;
+            font-size: 45px;
             margin-left: 0;
+            letter-spacing: 1.5px;
+            line-height: 65px;
         }
+
+        .skill:hover {
+            box-shadow: none;
+            border: none;
+            cursor: default;
+        }
+
+        #cnct {
+            font-size: 90px;
+            padding-bottom: 20%;
+        }
+
+        .forth {
+            height: 37%;
+            margin-top: 20%;
+        }
+
+        .foot {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .social1 {
+            margin-left: 4%;
+        }
+
+        .social2 {
+            margin-left: 8%;
+        }
+
+        .social3 {
+            margin-left: 8%;
+        }
+
+        .social4 {
+            margin-left: 8%;
+        }
+
+        .social1,
+        .social2,
+        .social3,
+        .social4 {
+            width: 16%;
+            height: auto;
+        }
+
 
     }
 
@@ -494,7 +576,7 @@
         font-size: 50px;
         text-align: center;
         margin-bottom: 5%;
-        padding-bottom: 13.5%;
+        padding-bottom: 5%;
     }
 
     .inp {
@@ -508,12 +590,6 @@
         overflow: visible;
         margin-right: 5%;
         margin-left: 10%;
-    }
-
-    footer {
-        background-color: grey;
-        height: 15%;
-        opacity: 0.4;
     }
 
     .get {
@@ -589,10 +665,17 @@
     <div class="forth" id="contact">
         <div class="forthforth">
             <section>
-                <h1 class="contact">Contact Me</h1>
-                <input type="text" placeholder="Enter your E-mail Here " class="inp"><br>
-                <button class="hire1">Get in Touch!</button>
-
+                <h1 class="contact" id="cnct">Contact Me</h1>
+                <div class="foot">
+                    <a href="https://www.facebook.com/vijay.aayush"> <img src="facebook.jpg" alt="Facebook Icon"
+                            class="social1"></a>
+                    <a href="https://github.com/aayushvijay"><img src="github.jpg" alt="Github Icon"
+                            class="social2"></a>
+                    <a href="https://www.linkedin.com/in/aayush-vijay-60b4b9155/"><img src="linkedin.jpg"
+                            alt="Linkedin Icon" class="social3"></a>
+                    <a href="https://twitter.com/VijayAayush"><img src="twitter.jpg" alt="Twitter Icon"
+                            class="social4"></a>
+                </div>
             </section>
         </div>
     </div>
