@@ -251,6 +251,11 @@
 
     }
 
+    .iam,
+    .mob-name {
+        text-transform: uppercase;
+    }
+
     @media screen and (max-width:1020px) {
         .skill {
             width: 60%;
@@ -295,6 +300,58 @@
             padding-left: 4%;
             padding-right: 4%;
 
+        }
+
+        .hello {
+            font-size: 100px;
+            letter-spacing: 2px;
+            margin-bottom: 4%;
+            color: #764ba2;
+        }
+
+        .line {
+            display: none;
+        }
+
+        .mob-name {
+            font-size: 120px;
+            text-transform: capitalize;
+        }
+
+        .iam {
+            display: block;
+            font-size: 70px;
+            margin-bottom: 1%;
+            text-transform: capitalize;
+        }
+
+        .about {
+            font-size: 35px;
+            margin-bottom: 15%;
+            margin-top: 4%;
+        }
+
+        .hire {
+            border: none;
+            background-image: linear-gradient(to right, #667eea, #764ba2);
+            width: 40%;
+            height: 7%;
+            border-radius: 8px;
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            margin-right: 6%;
+        }
+
+        .resume {
+            border: 2px solid #764ba2;
+            width: 40%;
+            height: 7%;
+            border-radius: 8px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            background-color: white;
         }
 
     }
@@ -442,11 +499,12 @@
     <div class="first" id="intro">
         <div class="firstfirst">
             <section>
-                <h2 class="hello">Hello &nbsp<b>______________________</b></h2>
-                <h1 class="name">I AM AAYUSH VIJAY</h1>
+                <h2 class="hello">Hello , &nbsp<b class="line">______________________</b></h2>
+                <h1 class="name"><span class="iam">I am</span> <span class="mob-name">aayush vijay</span></h1>
                 <p class="about">Computer Science Engineer</p>
                 <button class="hire">HIRE ME!</button>
-                <button class="resume"><a href="https://drive.google.com/open?id=1-V0KyMazsclE6ImZIrCt-BbueVRF2SmH" class="get">GET RESUME</a></button>
+                <button class="resume"><a href="https://drive.google.com/open?id=1-V0KyMazsclE6ImZIrCt-BbueVRF2SmH"
+                        class="get">GET RESUME</a></button>
             </section>
         </div>
     </div>
