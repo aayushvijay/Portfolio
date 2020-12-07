@@ -603,19 +603,19 @@
     .earth-orbit {
       width: 165px;
       height: 165px;
-      -webkit-animation: spin 12s linear 0s infinite;
+      animation: spin 12s linear 0s infinite;
     }
 
     .venus-orbit {
       width: 120px;
       height: 120px;
-      -webkit-animation: spin 7.4s linear 0s infinite;
+      animation: spin 7.4s linear 0s infinite;
     }
 
     .mercury-orbit {
       width: 90px;
       height: 90px;
-      -webkit-animation: spin 3s linear 0s infinite;
+      animation: spin 3s linear 0s infinite;
     }
 
     .planet {
@@ -632,6 +632,14 @@
       height: 35px;
       border-radius: 50%;
       background-color: #764ba2;
+    }
+    @keyframes spin {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(359deg);
+      }
     }
   </style>
 
@@ -768,8 +776,8 @@
         "https://www.linkedin.com/in/aayush-vijay-60b4b9155/";
     }
 
-    $(window).on("load",function(){
-        $(".loader-wrapper").fadeOut('slow');
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
     });
   </script>
 </html>
