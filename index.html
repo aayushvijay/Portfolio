@@ -643,7 +643,7 @@
     }
   </style>
 
-  <body>
+  <body onload="preload()">
     <div class="header">
       <header class="head">
         <nav>
@@ -748,7 +748,7 @@
         </section>
       </div>
     </div>
-    <div class="loader-wrapper">
+    <div class="loader-wrapper" id="loading">
       <div class="spinner-box">
         <div class="solar-system">
           <div class="earth-orbit orbit">
@@ -776,8 +776,13 @@
         "https://www.linkedin.com/in/aayush-vijay-60b4b9155/";
     }
 
-    $(window).on("load", function () {
-      $(".loader-wrapper").fadeOut("slow");
-    });
+    // $(window).on("load", function () {
+    //   $(".loader-wrapper").fadeOut("slow");
+    // });
+
+    var preloader = document.getElementById("loading");
+    function preload(){
+        preloader.style.display = 'none';
+    };
   </script>
 </html>
